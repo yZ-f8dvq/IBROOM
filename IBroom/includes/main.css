@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+
+body{
+	background: #333;
+	font-family: "Work Sans", sans-serif;
+	margin: 0;	
+}
+
+header{
+	background: #55d6aa;
+	font-weight: 800;	
+	font-size: 15px;
+}
+
+header::after{
+	content: '';
+	display:table;
+	clear:both;
+}
+
+main {
+	color: #ddd;	
+	width: 85%;
+	margin:0 auto;
+	
+}
+h1{
+	text-transform: uppercase;
+	color: #eee;
+	font-size: 60px;
+	margin: 15px 0;
+}
+
+h2{
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #008154;
+	font-size: 40px;
+	margin: 15px 0;
+	padding: 0;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+
+}
+
+.logo{
+	float: left;
+	padding: 5px 0;
+}
+
+
+nav {
+	display: inline-block;
+	float: right;
+
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+	
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 150px;
+	padding-top: 35px;
+
+	position: relative;
+}
+
+nav a{
+	color: #222;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background: #333;
+
+	position: absolute;
+	bottom: -30%;
+	width: 0%;
+
+	transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+	width: 110%;
+}
+
+
+#calc {
+	background: #555;
+	margin: 50px auto;
+	padding: 10px;
+	border-radius: 8px;
+	color: #ddd;
+}
+
+.registerContainer {
+	text-align: center;
+	background-color: #7EE7C2; 
+	width: 30%;
+	margin-top: 60px;
+	padding: 20px;
+	padding-bottom: 40px;
+	border-radius: 5px;
+}
+
+.register input {
+	margin: 4px;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	background-color: #B4F5DE;
+}
+
+.register button {
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #008154;
+	border: none;
+	color: white;
+	font-weight: 700;
+	border-radius: 5px;
+	transition: all ease-in-out 150ms;
+
+}
+.register button:hover {
+    background-color: #20BB84;
+
+  }
+
+http://paletton.com/#uid=1360u0kjiLoxoodqvBfaPUH0g+Z
