@@ -25,9 +25,16 @@ session_start();
 			<li><a href="forum.php"> Forum </a></li>
 			<li><a href="calculator.php">calculator</a></li>
 			<li><a href="register.php">Register</a></li>
-			<li><a href="login.php">Log in</a></li>
+			<li><?php
+		if (isset($_SESSION['userId'])) {
+			echo '<a href="includes/logout.inc.php">Log out</a>';
+		}
+		else {
+			echo '<a href="login.php">Log in</a>';
+		}
+		?></li>
 		</ul>
-		
+
 		
 
 		</div>
