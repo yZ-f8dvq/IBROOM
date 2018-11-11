@@ -20,14 +20,7 @@
 	</form>-->
 			<h1>Welcome to the IB room</h1>
 			<p>This is the IB Forum for us students. <br />Here we can post about anything relating to school or the IB diploma.</p>
-		<?php
-		if (isset($_SESSION['userId'])) {
-			echo "<p>You are logged in!</p>";
-		}
-		else {
-			echo "<p>You are logged out</p>";
-		}
-		?>
+		
 		
 		
 		</main>
